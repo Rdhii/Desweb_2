@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #444;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #333;
+}
+
+.result {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #666;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.result-box {
+  border: 1px solid #444; /* Border untuk kotak hasil */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #666; /* Warna latar belakang kotak hasil */
+  margin-bottom: 10px; /* Jarak antara kotak hasil dan tombol */
+}
